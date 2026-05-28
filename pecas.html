@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brechó Luedo Wear | Peças</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Brechó Luedo Wear</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+            <li class="nav-item"><a class="nav-link active" href="pecas.html">Peças</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Tipos</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Sobre nós</a></li>
+                <li><a class="dropdown-item" href="contato.html">Fazer pedido</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-5">
+    <section class="hero-small text-white text-center d-flex align-items-center">
+      <div class="container">
+        <h1 class="fw-bold">Nossas peças</h1>
+        <p class="lead">Escolha a opção que combina com seu drip.</p>
+      </div>
+    </section>
+
+    <section class="container py-5">
+      <div class="row g-4">
+        <article class="col-md-6 col-lg-4" id="casal">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/img/card1.png" class="card-img-top" alt="Camiseta Santa Cruz">
+            <div class="card-body">
+              <h2 class="h5 card-title">Camisa Vintage</h2>
+              <p class="card-text">Peça com estilo retrô, ideal para montar looks diferentes e cheios de personalidade.
+              </p>
+              <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#detalhesQuartos" aria-controls="detalhesQuartos">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-6 col-lg-4" id="familia">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/img/card2.png" class="card-img-top" alt="Camiseta Chronic">
+            <div class="card-body">
+              <h2 class="h5 card-title">Camiseta Streetwear</h2>
+              <p class="card-text">Modelo estiloso para o dia a dia, com visual urbano e confortável.</p>
+              <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#detalhesQuartos" aria-controls="detalhesQuartos">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-6 col-lg-4" id="economico">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/img/card3.png" class="card-img-top" alt="Camiseta brasil 2018">
+            <div class="card-body">
+              <h2 class="h5 card-title">Camisa de Time</h2>
+              <p class="card-text">Peça esportiva para quem curte futebol, autenticidade e estilo.</p>
+              <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#detalhesQuartos" aria-controls="detalhesQuartos">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container pb-5">
+      <div class="table-responsive shadow-sm rounded-3">
+        <table class="table table-striped table-hover mb-0">
+          <thead class="table-white">
+            <tr>
+              <td>Camisa Vintage</td>
+              <td>Tam: M</td>
+              <td>Retrô e casual</td>
+            </tr>
+            <tr>
+              <td>Camiseta Streetwear</td>
+              <td>Tam: G</td>
+              <td>Urbano e confortável</td>
+            </tr>
+            <tr>
+              <td>Camisa de Time</td>
+              <td>Tam: M</td>
+              <td>Esportivo e autêntico</td>
+            </tr>
+            </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <aside class="offcanvas offcanvas-end" tabindex="-1" id="detalhesQuartos" aria-labelledby="detalhesQuartosTitulo">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title h5" id="detalhesQuartosTitulo">Detalhes das peças</h2>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>As peças da Luedo são selecionadas com cuidado, buscando estilo,
+        qualidade e personalidade para cada look.</p>
+      <ul>
+        <li>Peças streetwear, vintage e roupas de time</li>
+        <li>Produtos únicos e com disponibilidade limitada </li>
+        <li>Consulte tamanhos, valores e estado da peça</li>
+      </ul>
+      <a href="contato.html" class="btn btn-primary">Consultar Peça</a>
+    </div>
+  </aside>
+
+  <footer class="bg-secondary text-white text-center py-4">
+    <p class="mb-0">Projeto AP2 - Bootstrap 5 | Brechó Luedo</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+  background-color: #331700;
+}
+
+.carousel-img {
+  height: 520px;
+  object-fit: cover;
+}
+
+.hero-small {
+  min-height: 300px;
+  background: linear-gradient(135deg, #331700, #534133);
+}
+
+.info-flex {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info-flex article {
+  flex: 1 1 160px;
+  border-left: 4px solid #331700;
+  padding-left: 12px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 310px;
+  object-fit: contain;
+  background-color: #000000;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 360px;
+  }
+
+  .carousel-caption {
+    display: none !important;
+  }
+
+  .hero-small {
+    min-height: 230px;
+  }
+}
